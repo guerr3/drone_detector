@@ -6,3 +6,11 @@ train_dir: data/raw/train
 val_dir: data/raw/val
 test_dir: data/raw/test
 model_name: mobilenetv2_classifier
+
+# Fase 2 (bounding box baseline)
+train_images_dir: data/raw/train
+val_images_dir: data/raw/val
+test_images_dir: data/raw/test
+train_annotations: data/raw/train_annotations.csv
+val_annotations: data/raw/val_annotations.csv
+test_annotations: data/raw/test_annotations.csv
